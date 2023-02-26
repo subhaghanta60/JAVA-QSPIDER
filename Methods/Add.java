@@ -1,0 +1,26 @@
+class Add
+{
+static void add()
+{
+int a=5;
+int b=5;
+int c=10;
+int x=a+b+c;
+System.out.println(x);
+
+
+
+
+}
+
+
+
+
+
+public static void main(String [] args)
+{
+System.out.println("*** Main Starts ***");
+add();
+System.out.println("***Main Ends***");
+}
+}

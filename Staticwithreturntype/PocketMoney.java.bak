@@ -1,0 +1,23 @@
+class FairTicket
+{
+static double ticket()
+{
+double bus_ticket_price=15.00;
+double taxi_ticket_price=20.00;
+
+double Ticket_price=bus_ticket_price + taxi_ticket_price;
+
+return Ticket_price;
+}
+}
+
+class PocketMoney
+{
+public static void main(String [] args)
+{
+System.out.println("***Pocket Money Start***");
+double ticketmoney=FairTicket.ticket();
+double Total_ticket_money =ticketmoney*25;
+double Finalpocketmoney = Total_ticket_money+1000;
+System.out.println(Finalpocketmoney);
+System.out.println("*** Pocket Money Ends***");

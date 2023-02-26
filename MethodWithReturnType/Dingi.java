@@ -1,0 +1,21 @@
+class Dingi
+{
+static double hr()
+{
+double basic_pay=30000.00;
+double food_allowance=10000.00;
+double medical_allowance = 10000.00;
+double travel_allowance = 10000.00;
+double Salary = basic_pay + food_allowance + medical_allowance + travel_allowance;
+return Salary;
+}
+
+public static void main(String [] args)
+{
+System.out.println("***Main Sarts***");
+double x=hr();
+double hike = x+12000.00;
+System.out.println(hike);
+System.out.println("***Main Ends***");
+}
+}
