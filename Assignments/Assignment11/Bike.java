@@ -1,5 +1,4 @@
-class Bike
-{
+class Bike{
 long Cost;
 String Brand;
 String Color;
