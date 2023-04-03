@@ -1,0 +1,8 @@
+class Sample2
+{
+public static vois main(String [] args)
+{
+Sample2 S1=new Sample2();
+System.out.println(S1);
+}
+}
