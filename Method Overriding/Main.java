@@ -6,6 +6,7 @@ System.out.println("Status for 30 sec");
 
 class Whatsapp_v2 extends Whatsapp_v1 {
 void status(){
+    
 System.out.println("Status For 15 sec");
 }
 }

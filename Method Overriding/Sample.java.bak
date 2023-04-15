@@ -15,7 +15,7 @@ System.out.println("Ride with Bike");
 class Sample 
 {
 public static void main(String [] args){
-Ola_v1 o =new Ola_v2();
+Ola_v2 o =new Ola_v2();
 o.ride();
 }
 }
