@@ -15,7 +15,7 @@ System.out.println("The Roll no  "+ y + " is  = "  +x);
 }
 void Rollno(String x,int y){
 
-System.out.println("The Cost of "+x+"  is = "+y);
+System.out.println("The Roll no of "+x+"  is = "+y);
 }
 }
 class School
